@@ -1,0 +1,30 @@
+{
+  "name": "vue_playground",
+  "version": "1.0.0",
+  "description": "Playing with Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/persyl/vue_playground.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "author": "Per Lundkvist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/persyl/vue_playground/issues"
+  },
+  "homepage": "https://github.com/persyl/vue_playground#readme",
+  "dependencies": {
+    "parcel": "^1.10.3",
+    "vue": "^2.5.17"
+  }
+}
